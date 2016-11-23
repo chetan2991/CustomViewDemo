@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--<attr name="typeface" format="string"/>-->
+    <declare-styleable name="TextViewWithTypeFace">
+        <attr name="typeface" format="string"/>
+        <attr name="underline" format="boolean"/>
+    </declare-styleable>
+
+</resources>
