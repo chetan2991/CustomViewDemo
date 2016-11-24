@@ -6,5 +6,11 @@
         <attr name="typeface" format="string"/>
         <attr name="underline" format="boolean"/>
     </declare-styleable>
+    <declare-styleable name="CustomTrangle">
+
+    </declare-styleable>
+    <declare-styleable name="SimpleAnimatedView">
+
+    </declare-styleable>
 
 </resources>

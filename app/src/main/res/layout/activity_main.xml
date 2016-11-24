@@ -12,14 +12,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="chetan.com.customeviewdemo.MainActivity">
 
+
+
+    <chetan.com.customeviewdemo.widget.CustomTrangle
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/customeTriangle"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        />
+    <!--<chetan.com.customeviewdemo.widget.SimpleAnimatedView-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:id="@+id/customeTriangle"/>-->
     <chetan.com.customeviewdemo.widget.TextViewWithTypeFace
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="30sp"
-        android:gravity="center"
-        android:layout_centerInParent="true"
+        android:layout_below="@+id/customeTriangle"
+        android:layout_centerHorizontal="true"
         app:typeface="Unkempt-Bold.ttf"
-        app:underline="false"/>
+        app:underline="true"/>
 
 </RelativeLayout>
